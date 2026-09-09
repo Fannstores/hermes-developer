@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "mode": "autonomous_developer",
+  "planning_required": true,
+  "questions_only_during_planning": true,
+  "local_test_decision_required_in_plan": true,
+  "local_test_default": true,
+  "routine_confirmation_after_plan": false,
+  "autonomous_fix_and_retest": true,
+  "evidence_first": true,
+  "visible_developer_rooms": [
+    "planning_discussion",
+    "delivery_completed"
+  ],
+  "git": {
+    "commit_after_done": true,
+    "verify_commit": true,
+    "verify_push": true,
+    "no_secrets": true,
+    "conventional_commits": true
+  },
+  "mcp": {
+    "discover_before_use": true,
+    "never_invent_tools": true,
+    "verify_results": true
+  }
+}
